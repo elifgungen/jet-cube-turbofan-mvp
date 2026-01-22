@@ -86,29 +86,37 @@ Each recommendation is accompanied by a **clear rationale**, ensuring
 interpretability and operational relevance.
 
 ---
-
 ## 📁 Repository Structure
-.
-├── AGENTS.md              # Project-level instructions for agent-based workflows
-├── notebooks/
-│   ├── 00_setup.ipynb
-│   ├── 01_eda_fd001.ipynb
-│   ├── 02_preprocess_fd001.ipynb
-│   ├── 03_rul_baseline_fd001.ipynb
-│   ├── 04_anomaly_fd001.ipynb
-│   └── 05_decision_support.ipynb
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── outputs/
-├── docs/
-│   ├── motor_context.md
-│   └── decision_logic.md
-├── demo/
-├── requirements.txt
-└── README.md
----
 
+- **AGENTS.md**  
+  Project-level instructions for agent-based and automated workflows.
+
+- **notebooks/**  
+  Jupyter notebooks covering the full MVP pipeline:
+  - setup
+  - exploratory data analysis (EDA)
+  - preprocessing
+  - RUL modeling
+  - anomaly detection
+  - decision-support logic
+
+- **data/**
+  - **raw/**: original, untouched datasets  
+  - **processed/**: cleaned and feature-engineered data  
+  - **outputs/**: model predictions and intermediate results
+
+- **docs/**
+  - `motor_context.md`: high-level turbofan and sensor context  
+  - `decision_logic.md`: decision-support rules and thresholds
+
+- **demo/**  
+  Demo-related materials and visualization artifacts.
+
+- **requirements.txt**  
+  Python dependencies required to run the project.
+
+- **README.md**  
+  Project overview and documentation.
 ## 🚀 MVP Scope and Limitations
 
 Included in MVP:
